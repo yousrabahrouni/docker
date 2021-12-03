@@ -190,7 +190,6 @@ Specify each parameter using the --set key=value[,key=value] argument to helm in
     ```bash
         kubectl exec -n yourNamespace podsName -- npx prisma studio
     ```
-
     * Forward port:5555
     ```bash
     kubectl port-forward -n yourNamespace podsName 5555:5555
