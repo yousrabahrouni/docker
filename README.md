@@ -178,7 +178,6 @@ Specify each parameter using the --set key=value[,key=value] argument to helm in
     ```bash
         helm upgrade --install -n yourNamespace yourReleaseName path/Calendso-Chart
     ```
-    
 5. Access prisma studio
  
     * Show pod's name
